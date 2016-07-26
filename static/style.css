@@ -56,10 +56,15 @@
 .bio-row {
 	margin-top: 24px;
 }
-.bio-info {
+.left-card-p {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	border-bottom: 1px solid #4783c2;
+	padding-bottom: 24px;
+}
+.left-card-p-borderless {
+	color: white;
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 24px;
 }
 .centered-icon {
