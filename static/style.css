@@ -4,53 +4,55 @@ html, body {
 .content {
 	height:100%;
 	background-color: #eae8e7;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.content-row {
+	height: 100%;
 }
 .container-fluid {
 	height: 100%;
-	background-color: white;
 }
 .card {
-	height:100%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card-left {
+.left-cards {
+	height:100%;
+	position: relative;
 	background-color: #5da4d9;
 	height: 100%;
-	text-align: center;
 }
-.profile-img {
+
+.right-cards {
+	height: 100%;
+	background-color: #ffffff;
+	margin-left: 25px;
 	position: relative;
+}
+
+.profile-img {
 	width:100%;
-	top: 50%;
-	/* Center profile image */
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-  	-ms-transform: translateY(-50%);
+	top: 0%;
+	left: 0%;
 }
-.nav-row {
-	background-color: #f9f9f9;
-}
-.nav-col {
+.profile-col {
 	padding: 0px;
+	position:relative;
 }
-.nav-tabs {
-	border: none
+.profile-description {
+	position:absolute;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+  	-ms-transform: translateX(-50%);
 }
-.nav-tabs li a {
-	letter-spacing: 1.6px;
-	font-weight: 600;
-	text-transform: uppercase;
-	font-family: 'Lato', Arial, sans-serif;
-	background-color: #f9f9f9;
-	color: #7b7b7b;
-	border-radius: 0px;
-	border: 0px;
+.profile-name {
+	font-size:18px;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
-	color: #2980b9;
-	border: 0px;
+.profile-title {
+	font-size:12px;
 }
